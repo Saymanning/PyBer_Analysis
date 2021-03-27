@@ -4,6 +4,7 @@ Each section has a heading and subheading
 Links to images are working and displayed correctly
 # Overview of the analysis:
 Explain the purpose of the new analysis.The purpose of the new analysis is well defined
+create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 # Results: 
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
