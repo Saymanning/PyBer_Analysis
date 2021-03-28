@@ -1,12 +1,10 @@
 # PyBer Analysis
-There is a title, and there are multiple sections
-Each section has a heading and subheading
-Links to images are working and displayed correctly
+
 ## Overview of the analysis:
-The purpose of this analysis is was to create a summary DataFrame of the Pyber ride-sharing data by city type(Urban, Suburban and Rural). To provide a visualization of the analysis, a multiple-line graph that shows the total weekly fares for each city type was created using Pandas and Matplotlib.
+The purpose of this analysis is was to create a summary DataFrame of Pyber ride-sharing data by city type(urban, suburban and rural). To provide a visualization of the analysis, a multiple-line graph that shows the total weekly fares for each city type was created using Pandas and Matplotlib.
 
 ## Results: 
-The dataframe displayed below shows some differences in ride-sharing data among the different city types. For example, the total number of rides is much higher in urban cities than in both suburban and rural cities. The total number of drivers is also highest in urban cities. It is not surprising to see that urban cities have the most in total fares. However, the average fare per ride and average fare per driver is highest in rural areas. This is most likely due to there being less demand drivers, fewer customers(total rides) and the length of the ride. In contrast, urban cities have a high demand for drivers and rides for the obvious reason of a higher population. Urban cities also have less parking available and parking in urban cities can be very costly. Rides in urban cities may also be shorter in length. The data for suburban cities shows the number of total rides is higher than rural cities by 500, and below urban cities total number of rides by 1000. The average fare per ride for suburban cities($30.97) is slightly lower than in rural cities($34.62) and significantly higher than in urbans cities($24.53). Suburban cities don't share the parking issues that urban cities have which is another factor most likely contributing to less demand for drivers and rides than urban cities.
+The dataframe displayed below shows some differences in ride-sharing data among the different city types. For example, the total number of rides is much higher in urban cities than in both suburban and rural cities. The total number of drivers is also highest in urban cities. It is not surprising to see that urban cities have the most in total fares. However, the average fare per ride and average fare per driver is highest in rural areas. This is most likely due to there being less demand for drivers, fewer customers(total rides) and the length of the ride potentially being longer. In contrast, urban cities have a high demand for drivers and rides for the obvious reason of a higher population. Urban cities also have less parking available and parking in urban cities can be very costly. Rides in urban cities may also be shorter in length. The data for suburban cities shows the number of total rides is higher than rural cities by **500**, and below urban cities total number of rides by **1000**. The average fare per ride for suburban cities(**$30.97**) is slightly lower than in rural cities(**$34.62**) and significantly higher than in urbans cities(**$24.53**). Suburban cities don't share the parking issues that urban cities have which is another factor most likely contributing to less demand for drivers and rides than urban cities.
 
 **Ride-sharing summary DataFrame by city type**
 
@@ -28,5 +26,10 @@ Another interesting obervation in the multiple-line chart is the drop in total f
 
 
 ## Summary:
-Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types.
+Based on the results of the Pyber Analysis three business recommendations below are provided to the CEO for addressing any disparities among the city types.
+
+- As populations in suburban cities increase, ride-sharing becomes more appealing in suburban cities due to commuter traffic, fuel costs and concern for the environment.       An increase advertising and marketing in suburban cities to attract more riders is recommended.
+
+- It is also recommended that further research and analysis be performed in order to determine the cause of spikes in total fares as seen the multi-line chart in February in   all three city types as well as the spike total fares the in rural cities in late March/early April.
+
+- In rural cities, a trial period of increased marketing and advertising is recommended to attract more riders. During this marketing campaign, offer incentives such as,       discounts or coupons to encourage more riders. Gather the data during the trial period to perform an analysis on the ROI of the marketing campaign. If it is successful,       consider offering similar promotions throughout the year to increase ridership in rural cities.
