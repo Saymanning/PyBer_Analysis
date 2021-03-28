@@ -15,6 +15,10 @@ There is a description of the differences in ride-sharing data among the differe
 -Next, the average fare per ride and average fare per driver for each city type was calculated.
 
 -Finally, this data was added to a new DataFrame and columns were formatted.
+<img width="475" alt="Pyber_Summary_Final" src="https://user-images.githubusercontent.com/78699465/112760674-dc29fa80-8fc5-11eb-80f5-d967a02dc5ba.png">
+
+
+
 
 
 A DataFrame was created using the groupby() function on the "type" and "date" columns, and the sum() method is applied on the "fare" column to show the total fare amount for each date and time.
@@ -26,6 +30,11 @@ An annotated chart showing the total fares by city type is created and saved to 
 **Multiple-line chart of total fares for each city type
 
 -Using functions, pivot() and resample(), create a multiple-line graph that shows the total fares for each week by city type.
+
+<img width="772" alt="Pyber_line_chart" src="https://user-images.githubusercontent.com/78699465/112760637-c4527680-8fc5-11eb-9dc9-0af09ec749fb.png">
+
+
+
 
 # Summary:
 Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
